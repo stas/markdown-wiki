@@ -1,0 +1,132 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #fefefe;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.7em;
+}
+
+h1 {
+	font-size: 1.4em;
+	border-bottom: 1px solid #cc0000;
+	color: #cc0000;
+	font-weight: normal;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0%;
+}
+
+h2 {
+	font-size: 1.3em;
+	font-weight: normal;
+	color: #cc0000;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+
+h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #000;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+p {
+	margin-top: 2px;
+	margin-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+a {
+	color: #cc0000;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+	margin-left: 1.2em;
+}
+
+ol {
+	list-style-type: upper-roman;
+	list-style-position: inside;
+	margin-left: 1.2em;
+}
+
+code {
+	font-size: 1.2em;
+	margin: 5px;
+	padding: 5px;
+	background-color: #eee;
+}
+
+img {
+	padding: 15px;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+div#menu {
+	width: 100%;
+	font-size: 1.05em;
+	border-top: 5px solid #cc0000;
+}
+
+div#menu ul {
+    width: 64%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+}
+
+div#menu ul li {
+	display: inline;
+	margin-left: 2em;
+}
+
+div#menu ul li a {
+	text-decoration: none;
+	color: #6C7290;
+	padding-bottom: 3px;
+}
+
+div#menu ul li a:hover {
+	border-bottom: 2px solid #cc0000;
+}
+
+div#wrapper {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#footer {
+	clear: both;
+	padding-top: 3px;
+    margin-top: 30px;
+	font-size: 0.75em;
+    text-align: right;
+}
+
+div#footer p {
+    color: #666;
+    border-top: 1px solid #cc0000;
+}
